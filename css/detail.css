@@ -109,6 +109,9 @@ img {
     color: #003399;
     font-weight: bold;
 }
+.title {
+    padding: 0 1rem;
+}
 
 @media screen and (max-width: 1199px){
     .item-1 {
@@ -189,6 +192,34 @@ img {
     }
     #title-E {
         font-size: 16px !important;
+    }
+    nav {
+        padding: 0 5%;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 390px){
+    #userName P {
+        display: none;
+    }
+    #title-C {
+        font-size: 25px !important;
+    }
+    #title-E {
+        font-size: 19px !important;
+    }
+    img {
+        width: 55px;
+    }
+    #logo-title {
+        min-width: unset;
+        width: 80%;
+    }
+    .title {
+        padding-right: 0;
+    }
+    .dropdown-toggle {
+        padding-left: 2px;
+        padding-right: 2px;
     }
     nav {
         padding: 0 5%;
