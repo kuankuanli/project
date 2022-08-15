@@ -14,7 +14,7 @@ body {
     width: 35%;
 }
 .BG-2 {
-    background-image: url("/img/login-right.svg");
+    background-image: url("img/login-right.svg");
     width: 65%;
 }
 .BG-1, .BG-2 {
