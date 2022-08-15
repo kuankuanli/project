@@ -25,10 +25,10 @@ img {
     margin-top: 0;
 }
 .BG-img1 {
-    background-image: url("../img/BG1.svg");
+    background-image: url("../img/BG1.png");
 }
 .BG-img2 {
-    background-image: url("../img/BG2.svg");
+    background-image: url("../img/BG2.png");
 }
 .BG-img3 {
     background-image: url("../img/BG3.svg");
@@ -37,7 +37,7 @@ img {
     background-image: url("../img/BG4.svg");
 }
 .BG-img5 {
-    background-image: url("../img/BG5.svg");
+    background-image: url("../img/BG5.png");
     height: 100%;
 }
 .BG-img6 {
@@ -45,7 +45,7 @@ img {
     height: 100%;
 }
 .BG-img7 {
-    background-image: url("../img/BG7.svg");
+    background-image: url("../img/BG7.png");
 }
 .BG-img-all {
     border-radius: 15px;

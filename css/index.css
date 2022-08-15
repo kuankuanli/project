@@ -10,11 +10,11 @@ body {
     display: flex;
 }
 .BG-1 {
-    background-image: url("../img/login-left.svg");
+    background-image: url("../img/login-left.png");
     width: 35%;
 }
 .BG-2 {
-    background-image: url("../img/login-right.svg");
+    background-image: url("../img/login-right.png");
     width: 65%;
 }
 .BG-1, .BG-2 {
