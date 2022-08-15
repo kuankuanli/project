@@ -12,10 +12,12 @@ body {
 .BG-1 {
     background-image: url("../img/login-left.png");
     width: 35%;
+    height: 100%;
 }
 .BG-2 {
     background-image: url("../img/login-right.png");
     width: 65%;
+    height: 100%;
 }
 .BG-1, .BG-2 {
     background-size: cover;
@@ -89,7 +91,7 @@ button {
 }
 @media screen and (max-width: 1024px){
     .text-C {
-        font-size: 2.0rem;
+        font-size: 2rem;
     }
     .text-E {
         font-size: 1.4rem;
@@ -106,6 +108,11 @@ button {
         padding: 0 20%;
     }
 }
+@media screen and (max-width: 390px){
+    .text-C {
+        font-size: 1.8rem;
+    }
+}
 @media screen and (max-width: 375px){
     img {
         width: 65px;
@@ -117,9 +124,12 @@ button {
         font-size: 1.2rem;
     }
 }
-@media screen and (max-height: 375px){
+@media screen and (max-height: 390px){
     body {
         height: auto;
+    }
+    #right-part {
+        display: none;
     }
     #right-part {
         height: auto !important;
@@ -127,8 +137,5 @@ button {
     .wrap {
         padding: 3% 20%;
         width: 100%;
-    }
-    #right-part {
-        display: none;
     }
 }
